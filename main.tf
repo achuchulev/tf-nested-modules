@@ -20,8 +20,8 @@ resource "aws_instance" "example" {
 }
 
 module "consul" {
-  source = "hashicorp/consul/aws"
-
-  aws_region  = "${var.region}" # should match provider region
-  num_servers = "3"
+  source  = "hashicorp/consul/aws"
+  version = "0.4.4"
+  
+  num_clients = "3"
 }
