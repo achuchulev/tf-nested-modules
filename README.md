@@ -10,8 +10,10 @@
 
 ### Get the repo
 
+```
 git clone https://github.com/achuchulev/tf-nested-modules.git
 cd tf-nested-modules
+```
 
 ### Initialize terraform
 
