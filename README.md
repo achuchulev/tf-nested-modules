@@ -1,5 +1,11 @@
 # A sample repo with example of Terraform configuration using modules form Terraform Registry and HashiCorp Consul for remote state
 
+#### In this example, 
+
+- [the Consul Terraform module for AWS](https://registry.terraform.io/modules/hashicorp/consul/aws) is used, which will set up a complete [Consul](https://www.consul.io/) cluste
+
+- [demo Consul server](https://demo.consul.io/) is used to store terraform state remotely. This should not be used for real data and in addition, the demo server doesn't permit locking
+
 ### Prerequisites
 
 - terraform
