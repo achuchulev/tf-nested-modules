@@ -1,4 +1,4 @@
-# A sample repo with example of Terraform configuration using modules form Terraform Registry and HashiCorp Consul for remote state
+# A sample repo with example of Terraform configuration using public modules from Terraform Registry and HashiCorp Consul for terraform remote state
 
 #### In this example, 
 
