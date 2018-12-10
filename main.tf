@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "aws" {
-  region     = "${var.region}"
+  region = "${var.region}"
 }
 
 resource "aws_eip" "ip" {
